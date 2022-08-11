@@ -1,4 +1,4 @@
-.main-bg {
+.bg-primary {
   background-color: #1075C9;
 }
 
@@ -25,8 +25,8 @@ ul.nav-a li a {
 }
 
 body {
-  font-family: 'PT Sans';
-  font-weight: 400;
+  font-family: 'ABeeZee';
+  /*font-weight: 400;*/
 }
 
 .carousel-control-prev-icon {
@@ -50,5 +50,51 @@ body {
 
 img-wrapper {
   margin: 0 auto;
+}
+
+#bg-banner-2 {
+  background: url("../../assets/img/gallery-2.png");
+  background-size: cover;
+  height: 400px;
+}
+
+.heading-text-h3 {
+  font-weight: 600;
+}
+
+.prosper-font-normal {
+  font-family: 'ABeeZee';
+  font-weight: 400;
+}
+
+.prosper-list {
+  font-family: 'ABeeZee';
+}
+
+li.p-ls span {
+  position: relative;
+  left: 1.0em !important;
+}
+
+.social-circle {
+  width: 45px;
+  height: 45px;
+}
+
+.fa-stack.medium {
+  font-size: 1.3em;
+  /*color: #fff;*/
+}
+
+.text-primary {
+  color: #317CDC;
+}
+
+.thirst-primary {
+  background-color: #317CDC;
+}
+
+.thirst-text-primary {
+  color: #317CDC;
 }
 

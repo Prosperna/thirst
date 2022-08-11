@@ -1,0 +1,116 @@
+// scss-docs-start color-variables
+$blue:    #317cdc !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
+.bg-primary {
+  background-color: #1075C9;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.logo-size {
+  width: 119px;
+  height: 50px;
+}
+
+ul.nav-a li a {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+  font-weight: 500;
+}
+
+body {
+  font-family: 'ABeeZee';
+  /*font-weight: 400;*/
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  /*background-color: #1075c9;*/
+}
+
+.cat-img-wrapper {
+  margin: 0 auto;
+}
+
+.cat-img {
+  width: 168px;
+  height: 224px;
+  margin: 0 auto;
+}
+
+img-wrapper {
+  margin: 0 auto;
+}
+
+#bg-banner-2 {
+  background: url("../../assets/img/gallery-2.png");
+  background-size: cover;
+  height: 400px;
+}
+
+.heading-text-h3 {
+  font-weight: 600;
+}
+
+.prosper-font-normal {
+  font-family: 'ABeeZee';
+  font-weight: 400;
+}
+
+.prosper-list {
+  font-family: 'ABeeZee';
+}
+
+li.p-ls span {
+  position: relative;
+  left: 1.0em !important;
+}
+
+.social-circle {
+  width: 45px;
+  height: 45px;
+}
+
+.fa-stack.medium {
+  font-size: 1.3em;
+  /*color: #fff;*/
+}
+
+.text-primary {
+  color: #317CDC;
+}
+
+.thirst-primary {
+  background-color: #317CDC;
+}
+
+.thirst-text-primary {
+  color: #317CDC;
+}

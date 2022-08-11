@@ -38,3 +38,13 @@
   height: 120px;
 }
 
+#bg-banner-1 {
+  background: url("../../assets/img/gallery-1.png");
+  background-size: cover;
+  height: 400px;
+}
+
+.list-unstyled-1 {
+  list-style: none;
+}
+
